@@ -1,0 +1,29 @@
+@import "./reset.scss";
+
+body {
+  background-color: white;
+  font-family: "Saira Semi Condensed", sans-serif;
+}
+
+.menu {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+
+  .company_signature {
+      display: flex;
+    font-family: "Audiowide", cursive;   
+    align-items: center;
+    font-size: 2rem;
+    div {
+      width: 100px;
+      height: 100%;
+      background-image: url("../assets/5f10768752b06-min.png");
+      background-size: contain;
+    }
+  }
+  .menu_section{
+      display: flex;
+      
+  }
+}
