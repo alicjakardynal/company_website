@@ -7,46 +7,6 @@ body {
 
 @import "./menu.scss";
 @import "./banner.scss";
-
-.about_company{
-  padding: 50px 150px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  .about_text{
-    z-index: 2;
-    width: 40vw;
-    height: 30vh;
-    border: 2px solid white;
-    background-color: rgb(30, 11, 114);
-    color: white;
-    position: relative;
-    left: 12%;
-    h2{
-      font-size: 2rem;
-      font-weight: 600;
-      
-      padding:  30px 30px 0 30px;
-
-    }
-    p{
-      padding: 30px 50px;
-      font-size: 1.2em;
-      letter-spacing: 1.5px;
-      line-height: 1.4;
-    }
-    
-  }
-  .about_img{
-    z-index: 1;
-    background-image: url("../assets/f-30444-od-czego-zaczac-tynkowanie-scian.jpg");
-    width: 60vw;
-    height: 40vh;
-    background-size: cover;
-    background-position: center;
-    
-  }
-
-
-}
+@import "./about_company.scss";
+@import "./footer.scss";
+@import "./job.scss";
