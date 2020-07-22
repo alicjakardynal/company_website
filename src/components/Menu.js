@@ -24,15 +24,7 @@ class Menu extends Component {
             <NavLink className="navigation_part" exact to ='/realization'>Realizacje</NavLink>
             <NavLink className="navigation_part" exact to ='/references'>Referencje i Certyfikaty</NavLink>
             <NavLink className="navigation_part" exact to ='/job'> Praca</NavLink>
-            <NavLink className="navigation_part" exact to ='/'> <Link
-          className="link below"
-          to="contact"
-          spy={true}
-          smooth={true}
-          duration={700}
-        >
-          Kontakt
-        </Link></NavLink>
+            <NavLink className="navigation_part" exact to ='/contact'> Kontakt</NavLink>
           </div>
         </div>
       </>
