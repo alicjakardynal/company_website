@@ -1,14 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import {
-  Link,
-  DirectLink,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller
-} from "react-scroll";
+
 
 class Menu extends Component {
   render() {
