@@ -5,66 +5,38 @@ body {
   font-family: "Saira Semi Condensed", sans-serif;
 }
 
-.menu {
-  height: 10vh;
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 2px solid rgb(221, 215, 215);
-box-shadow: 0px 5px 10px #ddd8d8;
+@import "./menu.scss";
 
-
-  .company_signature {
-      display: flex;
-    font-family: "Audiowide", cursive;   
-    align-items: center;
-    font-size: 2rem;
-    div {
-      width: 100px;
-      height: 100%;
-      background-image: url("../assets/5f10768752b06-min.png");
-      background-size: contain;
-    }
-  }
-  .menu_section{
-      display: flex;
-      align-items: center;
-    justify-content: center;
-    .navigation_part{
-      padding: 20px;
-      text-decoration: none;
-      color: black;
-      font-weight: 500;
-      font-size: 1.2rem;
-      position: relative;
-      &:hover::after{
-        content: " ";
-    position: absolute;
-    top: 45px;
-    left: 9px;
-    width: 135px;
-    height: 1px;
-    background-color: #3f803f;
-    box-shadow: 1px 2px 4px #1d521d;
-      }
-      &:nth-of-type(2):hover::after{
-        width: 100px;
-      
-      }
-      &:nth-of-type(3):hover::after{
-        width: 205px;
-      
-      }
-      &:nth-of-type(4):hover::after{
-        width: 55px;
-        left: 15px;
-      
-      }
-      &:nth-of-type(5):hover::after{
-        width: 75px;
-        left: 15px;
-      
-      }
-    }
-      
-  }
+.banner_background{
+  background-image: url("../assets/DSC00131.JPG");
+  width: 100vw;
+  height: 70vh;
+  background-size: cover;
+  background-position-y: 20%;
+  filter: opacity(50%);
+  z-index: 1;
+  
+}
+.banner_btn{
+  border: 3px solid black;
+  letter-spacing: 0.7px;
+  font-size: 1.8em;
+  font-weight: 600;
+  transition: 1s;
+  position: absolute;
+  bottom: 45%;
+&:hover{
+  background-color: rgb(189, 208, 216);
+  
+  transform: translateY(-5px);
+}}
+.about{
+ 
+  right: 65%;
+  padding: 30px 80px;
+}
+.job{
+  
+  right: 25%;
+  padding: 30px 60px;
 }
