@@ -9,7 +9,7 @@ class Menu extends Component {
         <div className="menu">
           <div className="company_signature">
             <div></div>
-            <h2>KAR-BUD</h2>
+            <h2>UL-BUD</h2>
           </div>
           <div className="menu_section">
             <NavLink className="navigation_part" exact to ='/'>Strona Główna</NavLink>

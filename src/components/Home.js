@@ -18,6 +18,7 @@ class Home extends Component{
             <>
             <Banner/>
             <AboutCompany/>
+            
             </>
         )
     }
@@ -49,7 +50,9 @@ class AboutCompany extends Component{
                     <h2> O nas</h2>
                 <p>Jesteśmy firmą z kilkunastoletnim doświadczeniem, specjalizującą się w termoizolacji 
                     budynków mieszkalnych oraz pracami związanymi z remontami budynków. Możemy pochwalić się
-                    wieloma rzetelnymi pracami z terminowym wykonaniem. </p>
+                    wieloma rzetelnymi pracami z terminowym wykonaniem. WYkonujemy prace takie jak: ...... Technikami takimi ... 
+                    Pracujemy na materiałach najwyższej jakości oraz współpracujemy z takimi producentami jak: arsani itd itd. </p>
+
                 </div>
                 </Fade>
                 <Fade right> 
