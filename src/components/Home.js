@@ -50,7 +50,8 @@ class AboutCompany extends Component{
                     <h2> O nas</h2>
                 <p>Jesteśmy firmą z kilkunastoletnim doświadczeniem, specjalizującą się w termoizolacji 
                     budynków mieszkalnych oraz pracami związanymi z remontami budynków. Możemy pochwalić się
-                    wieloma rzetelnymi pracami z terminowym wykonaniem. WYkonujemy prace takie jak: ...... Technikami takimi ... 
+                    wieloma rzetelnymi pracami z terminowym wykonaniem.</p>
+                    <p> Wykonujemy prace takie jak: ...... Technikami takimi ... 
                     Pracujemy na materiałach najwyższej jakości oraz współpracujemy z takimi producentami jak: arsani itd itd. </p>
 
                 </div>

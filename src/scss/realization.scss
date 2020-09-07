@@ -17,94 +17,125 @@
   
     .col{
       height: 70%;
-      width: 25%;
+      width: 23%;
+      transition: 1.5s;
       // border: 2px solid black;
     }
+   
     }
     .first_row{
       margin: 120px 20px 20px 20px;
-  
+ 
       .col:first-of-type{
-        background-image: url("../assets/DSC00244.JPG");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+       
+         &:hover{
+      transform: scale(1.2);
+    }
       }
       .col:nth-of-type(2){
-        background-image: url("../assets/DSC00211.JPG");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+ 
+        &:hover{
+          transform: scale(1.2);
+        }
       }
       .col:nth-of-type(3){
-        background-image: url("../assets/DSC00168.JPG");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+      
+        &:hover{
+          transform: scale(1.2);
+        }
       }
     }
     .second_row{
       .col:first-of-type{
-        background-image: url("../assets/DSC00196.JPG");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+       
+        &:hover{
+          transform: scale(1.2);
+        }
       }
       .col:nth-of-type(2){
-        background-image: url("../assets/DSC00148.JPG");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+      
+        &:hover{
+          transform: scale(1.2);
+        }
       }
       .col:nth-of-type(3){
-        background-image: url("../assets/DSC00120.JPG");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+        
+        &:hover{
+          transform: scale(1.2);
+        }
       }
     }
     .third_row{
       margin:20px 20px 20px 40px;
       .col:first-of-type{
-        background-image: url("../assets/DSC00137.JPG");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+       
+        &:hover{
+          transform: scale(1.2);
+        }
       }
       .col:nth-of-type(2){
-        background-image: url("../assets/DSC00107.JPG");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+       
+        &:hover{
+          transform: scale(1.2);
+        }
       }
       .col:nth-of-type(3){
-        background-image: url("../assets/DSC00131.JPG");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+      
+        &:hover{
+          transform: scale(1.2);
+        }
       }
     }
     .fourth_row{
       margin:20px 20px 20px 40px;
       .col:first-of-type{
-        background-image: url("../assets/DSC00073.JPG");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+       
+        &:hover{
+          transform: scale(1.2);
+        }
       }
       .col:nth-of-type(2){
-        background-image: url("../assets/DSC00084.JPG");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+   
+        &:hover{
+          transform: scale(1.2);
+        }
       }
       .col:nth-of-type(3){
-        background-image: url("../assets/DSC00052.JPG");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        transform: rotate(90deg);
+        width: 18%;
+        &:hover{
+          transform: scale(1.2);
+        }
+        
       }
+    }
+  }
+  .popUp{
+    width: 100%;
+    height: 100%;
+
+
+      position: fixed;
+
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+    
+     
+    .popUpImage {
+      position: absolute;
+      left: 15%;
+      right: 15%;
+      top: 15%;
+      bottom: 15%;
+      width: 50%;
+      height: 60%;
+      margin: auto;
+      background-image: url("../assets/DSC00084.JPG");
+      background-size: cover;
+      
     }
   }
   
