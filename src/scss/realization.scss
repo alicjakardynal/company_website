@@ -146,13 +146,48 @@
       
       
     } 
-  .title{
+    .fa-angle-left{
+   
+      top: 50%;
+    color: white;
+    position: relative;
+    font-size: 4rem;
+    }
+    .fa-angle-right{
+      top: 50%;
+      left: 118%;
+    color: white;
+    position: relative;
+    font-size: 4rem;
+    }
+  .img_title{
     position: absolute;
-    bottom: 0%;
-    background-color: grey;
-    width: 20%;
-    height: 10%;
-  }}
+    top: 94%;
+    right: 11%;
+    background-color: white;
+    width: 51%;
+    height: 7%;
+    border-radius: 12px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    h2{
+      font-family: "Saira Semi Condensed", sans-serif;
+      font-size:1.5em;
+    }
+  }
+  button{
+    padding: 9px;
+  
+    top: 1%;
+    position: absolute;
+    left: 119%;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    background-color: transparent;
+  }
+}
   }
   .dontPopUp{
     display: none;

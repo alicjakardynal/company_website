@@ -17,13 +17,15 @@ class Realization extends Component {
   state={
     currentSrc:"",
     isItClicked:false,
+    currentTitle:"",
 
 
   }
-  startGallery=(src)=>{
+  startGallery=(src,title)=>{
     this.setState({
       isItClicked:true,
-      currentSrc:src
+      currentSrc:src,
+      currentTitle:title,
       
     })
     
@@ -38,7 +40,7 @@ class Realization extends Component {
       <>
         <div className="realization_container">
           <div className="realization_row first_row">
-            <img onClick={()=>this.startGallery(img1)} className="col" src={img1} ></img>
+            <img onClick={()=>this.startGallery(img1,"Naftowa 25, Sosnowiec")} className="col" src={img1} ></img>
             <img  onClick={()=>this.startGallery(img2)}className="col" src={img2} ></img>
             <img onClick={()=>this.startGallery(img3)}className="col" src={img3}></img>
           </div>
@@ -64,10 +66,10 @@ class Realization extends Component {
             <img className="popUpImage" src={this.state.currentSrc}>
               
             </img>
-            <i> prev </i>
-            <button onClick={this.backFromGallery} className="close_btn">X</button>
-            <i> next </i>
-            <div className="title"><p>Title</p></div>
+            <i className="fas fa-angle-left"> </i> 
+            <button onClick={this.backFromGallery} className="close_btn fas fa-times"></button>
+            <i  className="fas fa-angle-right"> </i>
+            <div className="img_title"><h2>{this.state.currentTitle}</h2></div>
             
           </div>
           
