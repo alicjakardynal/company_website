@@ -108,6 +108,111 @@
         
       }
     }
+    .fifth_row{
+      margin:20px 20px 20px 40px;
+      .col:first-of-type{
+       
+        &:hover{
+          transform: scale(1.2);
+        }
+      }
+      .col:nth-of-type(2){
+       
+        &:hover{
+          transform: scale(1.2);
+        }
+      }
+      .col:nth-of-type(3){
+      
+        &:hover{
+          transform: scale(1.2);
+        }
+      }
+    }
+    .sixth_row{
+      margin:20px 20px 20px 40px;
+      .col:first-of-type{
+       
+        &:hover{
+          transform: scale(1.2);
+        }
+      }
+      .col:nth-of-type(2){
+       
+        &:hover{
+          transform: scale(1.2);
+        }
+      }
+      .col:nth-of-type(3){
+      
+        &:hover{
+          transform: scale(1.2);
+        }
+      }
+    }
+    .seventh_row{
+      margin:20px 20px 20px 40px;
+      .col:first-of-type{
+       
+        &:hover{
+          transform: scale(1.2);
+        }
+      }
+      .col:nth-of-type(2){
+       
+        &:hover{
+          transform: scale(1.2);
+        }
+      }
+      .col:nth-of-type(3){
+      
+        &:hover{
+          transform: scale(1.2);
+        }
+      }
+    }
+    .eighth_row{
+      margin:20px 20px 20px 40px;
+      .col:first-of-type{
+       
+        &:hover{
+          transform: scale(1.2);
+        }
+      }
+      .col:nth-of-type(2){
+       
+        &:hover{
+          transform: scale(1.2);
+        }
+      }
+      .col:nth-of-type(3){
+      
+        &:hover{
+          transform: scale(1.2);
+        }
+      }
+    }
+    .ninth_row{
+      margin:20px 20px 20px 40px;
+      .col:first-of-type{
+       
+        &:hover{
+          transform: scale(1.2);
+        }
+      }
+      .col:nth-of-type(2){
+       
+        &:hover{
+          transform: scale(1.2);
+        }
+      }
+      .col:nth-of-type(3){
+      
+        &:hover{
+          transform: scale(1.2);
+        }
+      }
+    }
   }
   .popUp{
     width: 100%;
@@ -193,3 +298,16 @@
     display: none;
   }
   
+.references{
+  img{
+    width: 15% !important;
+    height: 92% !important;
+  }
+}
+.popUpReferences{
+  top: 18% !important;
+  .popUpImage{
+    width: 70% !important;
+    height: 100% !important;
+  }
+}
