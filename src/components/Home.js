@@ -51,8 +51,18 @@ class AboutCompany extends Component{
                 <p>Jesteśmy firmą z kilkunastoletnim doświadczeniem, specjalizującą się w termoizolacji 
                     budynków mieszkalnych oraz pracami związanymi z remontami budynków. Możemy pochwalić się
                     wieloma rzetelnymi pracami z terminowym wykonaniem.</p>
-                    <p> Wykonujemy prace takie jak: ...... Technikami takimi ... 
-                    Pracujemy na materiałach najwyższej jakości oraz współpracujemy z takimi producentami jak: arsani itd itd. </p>
+                    <p className="what_we_do_title">Wykonujemy:</p>
+                    <p className="what_we_do">Docieplenia budynków metodą lekką-mokrą i suchą</p>
+                    <p className="what_we_do">Wymiana stolarki okiennej i drzwiowej</p>
+                    <p className="what_we_do">Pokrycia i docieplenia stropodachów</p>
+                    <p className="what_we_do">Opaski wokół budynków</p>
+                    <p className="what_we_do">Zadaszenia nad balkonami, wejściami wraz z ich remontem</p>
+                    <p className="what_we_do">Balustrady na balkonach</p>
+                    <p className="what_we_do">Instalacje odgromowe</p>
+                    <p className="what_we_do">Prace gruntowe wokół budynków?</p>
+                   
+                    <p>
+                    Pracujemy na materiałach najwyższej jakości oraz współpracujemy z takimi producentami jak: Ceresit, Arsanit, Atlas, Kreisel, Baumit, Weber. </p>
 
                 </div>
                 </Fade>

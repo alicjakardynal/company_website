@@ -11,36 +11,8 @@ body {
 @import "./footer.scss";
 @import "./job.scss";
 @import "./realization.scss";
+@import "./contact.scss";
+@media screen and (max-width: 1024px) {
 
-
-
-.contact{
-  background-color: rgb(231, 230, 236);
-    color: black;
-    width: 60%;
-    height: 43vh;
-    position: absolute;
-    top: 28%;
-    left: 20%;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    font-size: 1.2rem;
-    div{
-      padding: 30px;
-      text-align: center;
-      div{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-      }
-    }
-    h2{
-      font-size: 1.6rem;
-      font-weight: 600;
-    }
-    i{
-      padding: 10px;
-    }
 }
+

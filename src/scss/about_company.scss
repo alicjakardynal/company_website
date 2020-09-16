@@ -5,14 +5,14 @@
     align-items: center;
   
     .about_text{
-      z-index: 2;
-      width: 50vw;
-      height: 50vh;
+      z-index: 1;
+      width: 80vw;
+      height: 85vh;
       border: 2px solid white;
       background-color: rgb(37, 22, 104);
       color: white;
       position: relative;
-      left: 12%;
+      left: 5%;
       h2{
         font-size: 2rem;
         font-weight: 600;
@@ -21,17 +21,35 @@
   
       }
       p{
-        padding: 20px 50px;
+        padding: 20px 60px 20px 50px;
         font-size: 1.1em;
         letter-spacing: 1.5px;
         line-height: 1.4;
       }
-      
+      .what_we_do_title{
+        padding: 0 50px 10px 40px;
+        font-weight: 600;
+        font-size: 1.2em;
+      }
+      .what_we_do{
+        padding: 0 50px 10px 50px;
+        position: relative;
+        &::before{
+          content: "";
+          height: 8px;
+          width: 8px;
+          border-radius: 50%;
+          background-color: white;
+          position: absolute;
+          right: 95%;
+          top: 19%;
+        }
+      }
     }
     .about_img{
       z-index: 1;
       background-image: url("../assets/f-30444-od-czego-zaczac-tynkowanie-scian.jpg");
-      width: 60vw;
+      width: 70vw;
       height: 55vh;
       background-size: cover;
       background-position: center;
