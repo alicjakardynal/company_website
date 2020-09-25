@@ -22,8 +22,8 @@ import img20 from "../assets/myslowicka1-2_optimized.jpg";
 import img21 from "../assets/myslowicka10-2-2_optimized.jpg";
 import img22 from "../assets/myslowicka101-2_optimized.jpg";
 import img23 from "../assets/myslowicka2-2_optimized.jpg";
-import img24 from "../assets/scan_optimized.jpg";
-import img25 from "../assets/scan1_optimized.jpg";
+import img24 from "../assets/scan10_optimized.jpg";
+import img25 from "../assets/scan10_optimized.jpg";
 import img26 from "../assets/scan10_optimized.jpg";
 import img27 from "../assets/scan11_optimizedulbud.jpg";
 
@@ -126,47 +126,47 @@ class References extends Component {
     return (
       <>
         <div className="realization_container">
-          <div className="realization_row first_row references">
+          <div className="realization_row row references">
             <img onClick={()=>this.startGallery(imagesData[0].src,0)} className="col" src={img1} ></img>
             <img  onClick={()=>this.startGallery(imagesData[1].src,1)}className="col" src={img2} ></img>
             <img onClick={()=>this.startGallery(imagesData[2].src,2)}className="col" src={img3}></img>
           </div>
-          <div className="realization_row second_row references">
+          <div className="realization_row row references">
           <img onClick={()=>this.startGallery(imagesData[3].src,3)}className="col" src={img4} ></img>
             <img onClick={()=>this.startGallery(imagesData[4].src,4)} className="col" src={img5} ></img>
             <img onClick={()=>this.startGallery(imagesData[5].src,5)} className="col" src={img6}></img>
           </div>
-          <div className="realization_row third_row references">
+          <div className="realization_row row references">
           <img onClick={()=>this.startGallery(imagesData[6].src,6)} className="col" src={img7} ></img>
             <img  onClick={()=>this.startGallery(imagesData[7].src,7)} className="col" src={img8} ></img>
             <img onClick={()=>this.startGallery(imagesData[8].src,8)} className="col" src={img9}></img>
           </div>
-          <div className="realization_row fourth_row references">
+          <div className="realization_row row references">
           <img  onClick={()=>this.startGallery(imagesData[9].src,9)}className="col" src={img10} ></img>
             <img onClick={()=>this.startGallery(imagesData[10].src,10)} className="col" src={img11} ></img>
             <img onClick={()=>this.startGallery(imagesData[11].src,11)} className="col" src={img12}></img>
           </div>
-          <div className="realization_row fifth_row references">
+          <div className="realization_row row references">
           <img  onClick={()=>this.startGallery(imagesData[12].src,12)}className="col" src={img13} ></img>
             <img onClick={()=>this.startGallery(imagesData[13].src,13)} className="col" src={img14} ></img>
             <img onClick={()=>this.startGallery(imagesData[14].src,14)} className="col" src={img15}></img>
           </div>
-          <div className="realization_row sixth_row references">
+          <div className="realization_row row references">
           <img  onClick={()=>this.startGallery(imagesData[15].src,15)}className="col" src={img16} ></img>
             <img onClick={()=>this.startGallery(imagesData[16].src,16)} className="col" src={img17} ></img>
             <img onClick={()=>this.startGallery(imagesData[17].src,17)} className="col" src={img18}></img>
           </div>
-          <div className="realization_row seventh_row references">
+          <div className="realization_row row references">
           <img  onClick={()=>this.startGallery(imagesData[18].src,18)}className="col" src={img19} ></img>
             <img onClick={()=>this.startGallery(imagesData[19].src,19)} className="col" src={img20} ></img>
             <img onClick={()=>this.startGallery(imagesData[20].src,20)} className="col" src={img21}></img>
           </div>
-          <div className="realization_row eighth_row references">
+          <div className="realization_row row references">
           <img  onClick={()=>this.startGallery(imagesData[21].src,21)}className="col" src={img22} ></img>
             <img onClick={()=>this.startGallery(imagesData[22].src,22)} className="col" src={img23} ></img>
             <img onClick={()=>this.startGallery(imagesData[23].src,23)} className="col" src={img24}></img>
           </div>
-          <div className="realization_row ninth_row references">
+          <div className="realization_row row references">
           <img  onClick={()=>this.startGallery(imagesData[24].src,24)}className="col" src={img25} ></img>
             <img onClick={()=>this.startGallery(imagesData[25].src,25)} className="col" src={img26} ></img>
             <img onClick={()=>this.startGallery(imagesData[26].src,26)} className="col" src={img27}></img>

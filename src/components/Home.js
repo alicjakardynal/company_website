@@ -62,7 +62,7 @@ class AboutCompany extends Component{
                     <p className="what_we_do">Prace gruntowe wokół budynków?</p>
                    
                     <p>
-                    Pracujemy na materiałach najwyższej jakości oraz współpracujemy z takimi producentami jak: Ceresit, Arsanit, Atlas, Kreisel, Baumit, Weber. </p>
+                    Pracujemy na materiałach najwyższej jakości oraz współpracujemy z takimi producentami jak: Bolix, Ceresit, Arsanit, Atlas, Kreisel, Baumit, Weber. </p>
 
                 </div>
                 </Fade>

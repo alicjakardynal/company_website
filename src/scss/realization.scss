@@ -21,9 +21,11 @@
       transition: 1.5s;
       // border: 2px solid black;
     }
-   
+   .vertical{
+       width: 15%;
+      }
     }
-    .first_row{
+    .row{
       margin: 120px 20px 20px 20px;
  
       .col:first-of-type{
@@ -44,175 +46,9 @@
           transform: scale(1.2);
         }
       }
-    }
-    .second_row{
-      .col:first-of-type{
-       
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-      .col:nth-of-type(2){
       
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-      .col:nth-of-type(3){
-        
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
     }
-    .third_row{
-      margin:20px 20px 20px 40px;
-      .col:first-of-type{
-       
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-      .col:nth-of-type(2){
-       
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-      .col:nth-of-type(3){
-      
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-    }
-    .fourth_row{
-      margin:20px 20px 20px 40px;
-      .col:first-of-type{
-       
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-      .col:nth-of-type(2){
-   
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-      .col:nth-of-type(3){
-        width: 18%;
-        &:hover{
-          transform: scale(1.2);
-        }
-        
-      }
-    }
-    .fifth_row{
-      margin:20px 20px 20px 40px;
-      .col:first-of-type{
-       
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-      .col:nth-of-type(2){
-       
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-      .col:nth-of-type(3){
-      
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-    }
-    .sixth_row{
-      margin:20px 20px 20px 40px;
-      .col:first-of-type{
-       
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-      .col:nth-of-type(2){
-       
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-      .col:nth-of-type(3){
-      
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-    }
-    .seventh_row{
-      margin:20px 20px 20px 40px;
-      .col:first-of-type{
-       
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-      .col:nth-of-type(2){
-       
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-      .col:nth-of-type(3){
-      
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-    }
-    .eighth_row{
-      margin:20px 20px 20px 40px;
-      .col:first-of-type{
-       
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-      .col:nth-of-type(2){
-       
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-      .col:nth-of-type(3){
-      
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-    }
-    .ninth_row{
-      margin:20px 20px 20px 40px;
-      .col:first-of-type{
-       
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-      .col:nth-of-type(2){
-       
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-      .col:nth-of-type(3){
-      
-        &:hover{
-          transform: scale(1.2);
-        }
-      }
-    }
+    
   }
   .popUp{
     width: 100%;
@@ -249,8 +85,12 @@
       height: 85%;
       margin: auto;
       
-      
+  
     } 
+    .wider{
+      width: 62%;
+      left: 32%;
+    }
     .fa-angle-left{
    
       top: 50%;
