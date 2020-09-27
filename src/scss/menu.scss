@@ -15,14 +15,23 @@
         display: flex;
       font-family: "Audiowide", cursive;   
       align-items: center;
-      font-size: 2rem;
+      // font-size: 2rem;
       
-      div {
-        width: 80px;
+      .signature {
+        width: 70px;
         height: 100%;
         background-image: url("../assets/5f10768752b06-min.png");
         background-size: contain;
+        display: block;
       }
+        
+        h2{
+          font-size: 1.1rem;
+        }
+        .bigger_sign{
+          font-size: 1.7rem;
+        }
+      
     }
     .menu_section{
         display: flex;

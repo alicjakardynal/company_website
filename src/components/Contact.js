@@ -9,7 +9,7 @@ class Contact extends Component {
           <div className="contact">
             <div>
               <h2>Nazwa:</h2>
-              <p> (Można nas znaleźć pod dwoma nazwami)</p>
+              <p> (Jako ściśle współpracujace firmy można nas znaleźć pod dwoma nazwami)</p>
               <p>"UL-BUD" oraz "Usługi Budowlane Roman Kardynał"</p>
             </div>
             <div>
