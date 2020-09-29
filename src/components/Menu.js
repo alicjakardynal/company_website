@@ -31,12 +31,12 @@ class Menu extends Component {
             </div>
             
           </div>
-          <div className={this.state.menuBtnClicked ? "menu_btn close" : "menu_btn"} onClick={this.menuClick}>
+          <div className={this.state.menuBtnClicked ? "menu_btn cross" : "menu_btn"} onClick={this.menuClick}>
             <div className= "btn_line"></div>
             <div className="btn_line"></div>
             <div className="btn_line"></div>
           </div>
-          <div className="menu_section">
+          <div className={this.state.menuBtnClicked ? "menu_section show" : "menu_section"}>
             <NavLink className="navigation_part" exact to ='/'>Strona Główna</NavLink>
             <NavLink className="navigation_part" exact to ='/realization'>Realizacje</NavLink>
             <NavLink className="navigation_part" exact to ='/references'>Referencje i Certyfikaty</NavLink>
