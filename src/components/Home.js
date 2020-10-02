@@ -29,12 +29,14 @@ class Banner extends Component{
         return(
             <>
             <div className="banner_background"></div>
+            <div className="banner_btn_area">
             <Link className="banner_btn about" 
             to="about_company"
             spy={true}
             smooth={true}
             duration={700}> O firmie</Link>
             <NavLink className="banner_btn job" exact to ='/job'> Chcesz nawiązać współpracę?</NavLink>
+            </div>
             </>
         )
     }
@@ -62,7 +64,7 @@ class AboutCompany extends Component{
                     <p className="what_we_do">Prace gruntowe wokół budynków?</p>
                    
                     <p>
-                    Pracujemy na materiałach najwyższej jakości oraz współpracujemy z takimi producentami jak: Bolix, Ceresit, Arsanit, Atlas, Kreisel, Baumit, Weber. </p>
+                    Pracujemy na materiałach najwyższej jakości oraz współpracujemy z takimi producentami jak: Bolix, KABE, Ceresit, Arsanit, Atlas, Kreisel, Baumit. </p>
 
                 </div>
                 </Fade>
