@@ -20,13 +20,16 @@ body {
   
   @import "./max1250px/menu_1250.scss";
   @import "./max1250px/banner_1250.scss";
- 
-  }
-  
+  @import "./max1250px/about_company_1250.scss";
+  @import "./max1250px/realizations_1250.scss";
+}
 
 @media screen and (max-width: 1024px) {
   @import "./max1024px/menu_max1024.scss";
- 
+  @import "./max1024px/about_company_1024.scss";
+  @import "./max1024px/realizations_1024.scss";
+
+
 }
 
 
@@ -34,21 +37,25 @@ body {
 
 @media screen and (max-width: 768px) {
   
-@import "./max768px/menu_768.scss";
-@import "./max768px/banner_768.scss";
-
+  @import "./max768px/menu_768.scss";
+  @import "./max768px/banner_768.scss";
+  @import "./max768px/footer_768.scss";
+  @import './max768px/realizations_768.scss';
 }
 
 @media screen and (max-width: 600px) {
-
+  @import "./max600px/realizations_600.scss";
 
 }
 
 
 @media screen and (max-width: 480px) {
   @import "./max480px/banner_480.scss";
+  @import "./max480px/about_company_480.scss";
+  @import './max480px/footer_480.scss';
+  @import "./max480px/realizations_480.scss";
+ }
 
-}
 
 
 

@@ -23,14 +23,14 @@ class Menu extends Component {
     return (
       <>
         <div className="menu">
-          <div className="company_signature">
+          <NavLink exact to ='/' className="company_signature">
             <div className="signature"></div>
             <div >
               <h2>Usługi Budowlane </h2>
             <h2 className="bigger_sign">KARDYNAŁ</h2>
             </div>
             
-          </div>
+          </NavLink>
           <div className={this.state.menuBtnClicked ? "menu_btn cross" : "menu_btn"} onClick={this.menuClick}>
             <div className= "btn_line"></div>
             <div className="btn_line"></div>

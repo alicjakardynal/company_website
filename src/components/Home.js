@@ -61,7 +61,7 @@ class AboutCompany extends Component{
                     <p className="what_we_do">Zadaszenia nad balkonami, wejściami wraz z ich remontem</p>
                     <p className="what_we_do">Balustrady na balkonach</p>
                     <p className="what_we_do">Instalacje odgromowe</p>
-                    <p className="what_we_do">Prace gruntowe wokół budynków?</p>
+                    
                    
                     <p>
                     Pracujemy na materiałach najwyższej jakości oraz współpracujemy z takimi producentami jak: Bolix, KABE, Ceresit, Arsanit, Atlas, Kreisel, Baumit. </p>

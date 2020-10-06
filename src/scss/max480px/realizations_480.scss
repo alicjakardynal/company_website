@@ -1,0 +1,46 @@
+.realization_container{
+  
+    justify-content: center;
+    .col{
+ 
+      width: 90%;
+     
+    }
+    .vertical{
+      width: 60%;
+    }
+}
+
+
+.popUp{
+   
+  .popUpImageArea{
+  height: 45%;
+  width: 81%;
+  .img_title {
+    
+   h2{
+     font-size: 1rem;
+   }
+  }
+
+  .fa-angle-right {
+    font-size: 2rem;
+    left: 107%;
+}
+.fa-angle-left {
+   font-size: 2rem;
+  right: 0;
+}
+button{
+  left: 106%;
+  top: -8%;
+  font-size: 1.5rem;
+}
+.popUpImage{
+  left: 10%;
+}
+.wider{
+  left: 30%;
+}
+  }}
