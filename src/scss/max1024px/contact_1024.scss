@@ -1,0 +1,17 @@
+
+.contact{
+    flex-direction: column;
+    height: auto;
+    top: 17%;
+    div{
+      padding: 20px;
+    
+      div{
+        padding: 0;
+    
+      }
+      &.phone-and-mail{
+        padding: 20px;
+      }
+    }
+  }

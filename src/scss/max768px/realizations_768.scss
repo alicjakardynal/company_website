@@ -15,6 +15,13 @@
     .popUpImageArea{
     height: 60%;
       width: 70%;
+      &.popUpReferences{
+        height: 75%;
+        width: 70%;
+        .popUpImage{
+          width: 78%;
+        }
+      }
       .img_title {
          width: 75%;
         top: 100%;
@@ -28,3 +35,25 @@
   }
     }
      }
+
+     .realization_container{
+      
+      &.references{ 
+      
+    img{
+      width: 30% ;
+     
+    }
+  }
+    }
+  //   .popUpImageArea{
+  //     &.popUpReferences{
+  //     top: 18%;
+  //       .popUpImage{
+  //       width: 70% ;
+  //       height: 100%;
+  //       left: 27% ;
+  //       right: 25% ;
+  //   }
+  // }
+  //   }

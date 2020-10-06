@@ -12,7 +12,7 @@ class Contact extends Component {
               <p> (Jako ściśle współpracujace firmy można nas znaleźć pod dwoma nazwami)</p>
               <p>"UL-BUD" oraz "Usługi Budowlane Roman Kardynał"</p>
             </div>
-            <div>
+            <div className="phone-and-mail">
               <div>
               <h2><i class="fas fa-envelope-open-text"></i> Email:</h2>
               <p> rkardynal@poczta.onet.pl</p>

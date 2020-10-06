@@ -17,6 +17,22 @@
   .popUpImageArea{
   height: 45%;
   width: 81%;
+  &.popUpReferences{
+    top: 12%;
+    width: 83%;
+    .popUpImage{
+      width: 97%;
+      left: 10%;
+      height: 85%;
+    }
+    button{
+      left: 109%;
+      top: 0%;
+    }
+    .fa-angle-right {
+      
+      }
+  }
   .img_title {
     
    h2{
@@ -44,3 +60,15 @@ button{
   left: 30%;
 }
   }}
+
+  .realization_container{
+    
+    &.references{ 
+    
+  img{
+    width: 60% ;
+ 
+   
+  }
+}
+  }
