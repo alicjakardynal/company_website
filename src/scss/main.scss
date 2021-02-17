@@ -1,16 +1,30 @@
 @import "./reset.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
 @mixin easeOut {
   transition: all 1s ease-out;
+  };
   
-}
+  $colors: (
+  main-yellow:  #fcb80b,
+  text-light:white,
+  text-black:black,
+  text-grey: #979797
+
+);
 body {
   background-color: white;
-  font-family: "Saira Semi Condensed", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  
+  // font-family: "Saira Semi Condensed", sans-serif;
 }
 
 @import "./menu.scss";
 @import "./banner.scss";
 @import "./about_company.scss";
+@import"./materials.scss";
 @import "./footer.scss";
 @import "./job.scss";
 @import "./realization.scss";

@@ -1,88 +1,68 @@
 .menu {
-    height: 10vh;
-    display: flex;
-    padding: 0 60px;
-    justify-content: space-between;
-    border-bottom: 2px solid rgb(221, 215, 215);
-  box-shadow: 0px 5px 10px #ddd8d8;
-  background-color: white;
+  height: 10vh;
+  display: flex;
+  padding: 0 60px;
+  justify-content: space-between;
+  background-color: transparent;
   position: fixed;
   width: 100%;
   z-index: 2;
-  
-  
-    .company_signature {
-        display: flex;
-      font-family: "Audiowide", cursive;   
-      align-items: center;
-      color: black;
+
+  .menu_section {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    left: -6%;
+    .navigation_part {
+      padding: 20px;
+      transition: 0.4s;
       text-decoration: none;
-      
-      .signature {
-        width: 70px;
-        height: 100%;
-        background-image: url("../assets/5f10768752b06-min.png");
-        background-size: contain;
-        display: block;
-      }
-        
-        h2{
-          font-size: 1.1rem;
-        }
-        .bigger_sign{
-          font-size: 1.7rem;
-        }
-      
-    }
-    .menu_section{
-        display: flex;
-        align-items: center;
- 
+      text-transform: uppercase;
+      color: map-get($colors, text-light);
+      letter-spacing: 0.6px;
+      font-weight: 400;
+      font-size: 1.2rem;
       position: relative;
-      left: -6%;
-      .navigation_part{
-        
-        padding: 20px 40px;
-        transition: 0.4s;
-        text-decoration: none;
-        color: black;
-        letter-spacing: 0.6px;
-        font-weight: 600;
-        font-size: 1.2rem;
-        position: relative;
-        &:hover{
-          color: rgb(10, 119, 161);
-        }
-        &::after{
-          content: " ";
-      position: absolute;
-      top: 45px;
-      left: 28px;
-      width: 145px;
-      height: 1px;
-      background-color: rgb(10, 119, 161);
-      box-shadow: 1px 2px 4px rgb(10, 119, 161);
-        }
-        &:nth-of-type(2)::after{
-          width: 110px;
-        
-        }
-        &:nth-of-type(3)::after{
-          width: 225px;
-        
-        }
-        &:nth-of-type(4)::after{
-          width: 65px;
-          left: 30px;
-        
-        }
-        &:nth-of-type(5)::after{
-          width: 85px;
-          left: 33px;
-        
-        }
+      font-family: "Montserrat", serif;
+      &:hover {
+        color: map-get($colors, main-yellow);
       }
-        
     }
   }
-  
+}
+.menu_changed {
+  background-color: #1a1a1a;
+  animation: backgroundcol 1s;
+}
+@keyframes backgroundcol {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: #1a1a1a;
+  }
+}
+.company_signature {
+  display: flex;
+  font-family: "Audiowide", cursive;
+  align-items: center;
+  color: map-get($colors, text-light);
+  text-decoration: none;
+
+  .signature {
+    width: 75px;
+    height: 100%;
+    background-image: url("../assets/5f10768752b06-min-yell.png");
+    background-size: contain;
+    display: block;
+    background-position-y: 20%;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+  .bigger_sign {
+    font-size: 1.7rem;
+  }
+}

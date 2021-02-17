@@ -4,9 +4,9 @@ import { NavLink } from "react-router-dom";
 
 class Menu extends Component {
   state={
+    menuChangedBackground:false,
     menuBtnClicked:false
   }
-
   menuClick=()=>{
     if(this.state.menuBtnClicked== false){
       this.setState({
@@ -15,23 +15,35 @@ class Menu extends Component {
     }else{this.setState({
       menuBtnClicked:false
     })
-      
-    }
-    
-  }
-
- 
+          }
+      } ;
+  changingBackground=()=>{
+   let scroll=window.pageYOffset;
+    if(scroll!==0){
+     this.setState({
+       menuChangedBackground:true
+     })
+   }else{
+     this.setState({
+       menuChangedBackground:false
+     })
+   }
+ }
+  componentDidMount(){
+window.addEventListener("scroll", ()=>{
+  this.changingBackground()
+})
+  } 
   render() {
     return (
       <>
-        <div className="menu">
+        <div className={this.state.menuChangedBackground ? "menu menu_changed" : "menu"} >
           <NavLink exact to ='/' className="company_signature">
             <div className="signature"></div>
             <div >
               <h2>Usługi Budowlane </h2>
             <h2 className="bigger_sign">KARDYNAŁ</h2>
-            </div>
-            
+            </div>            
           </NavLink>
           <div className={this.state.menuBtnClicked ? "menu_btn cross" : "menu_btn"} onClick={this.menuClick}>
             <div className= "btn_line"></div>
