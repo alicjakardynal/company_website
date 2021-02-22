@@ -1,9 +1,10 @@
+
 .menu {
   height: 10vh;
   display: flex;
   padding: 0 60px;
   justify-content: space-between;
-  background-color: transparent;
+  background-color: black;
   position: fixed;
   width: 100%;
   z-index: 2;
@@ -31,10 +32,16 @@
     }
   }
 }
-.menu_changed {
+.home_section{
+  .menu{
+    background-color: transparent;
+  }
+  .menu_changed {
   background-color: #1a1a1a;
   animation: backgroundcol 1s;
 }
+}
+
 @keyframes backgroundcol {
   from {
     background-color: transparent;

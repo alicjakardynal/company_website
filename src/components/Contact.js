@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
+import Menu from './Menu';
 
 class Contact extends Component {
   render() {
     return (
       <>
-        <Fade left>
+      <Menu/>
+      <div className="contact_section">
+          <Fade left>
           <div className="contact">
             <div>
               <h2>Nazwa:</h2>
@@ -26,6 +29,8 @@ class Contact extends Component {
             </div>
           </div>
         </Fade>
+      </div>
+      
       </>
     );
   }

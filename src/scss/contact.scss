@@ -1,10 +1,12 @@
-
+.contact_section{
+height: 70vh;
+}
 .contact{
     background-color: rgb(231, 230, 236);
       color: black;
       width: 60%;
       height: 43vh;
-      position: absolute;
+      position: relative;
       top: 28%;
       left: 20%;
       display: flex;

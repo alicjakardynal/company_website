@@ -1,11 +1,15 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
+import Menu from './Menu';
 
 class Job extends Component{
     render(){
         return(
             <>
-            <Fade right>
+            <Menu/>
+            <div className="job_container">
+                <Fade right>
+                
                 <div className="job_area">
                     <div>
                     <p>Szukamy pracowników budowlanych do pracy w województwie śląskim. </p>
@@ -13,6 +17,8 @@ class Job extends Component{
                     </div>
                 </div>
             </Fade>
+            </div>
+            
             </>
         )
     }

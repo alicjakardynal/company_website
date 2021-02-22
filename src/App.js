@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import { HashRouter, Route, Switch } from "react-router-dom";
 import Home from './components/Home';
-import Menu from './components/Menu';
 import Footer from './components/Footer';
 import Realization from './components/Realization';
 import References from './components/References';
@@ -14,17 +13,14 @@ function App() {
   return (<>
 
  <HashRouter>
-   <Menu/>
-<Switch>
-  <Route exact path='/' component={Home}/>
-  <Route exact path='/realization' component={Realization}/>
-  <Route exact path='/references' component={References}/>
+ <Switch>
+  <Route exact path='/' component={Home} onUpdate={() => window.scrollTo(0, 0)}/>
+  <Route exact path='/realization' component={Realization} onUpdate={() => window.scrollTo(0, 0)}/>
+  <Route exact path='/references' component={References} onUpdate={() => window.scrollTo(0, 0)}/>
   <Route exact path='/job' component={Job}/>
   <Route exact path='/contact' component={Contact}/>
-  
-</Switch>
- 
-  <Footer/>
+  </Switch>
+   <Footer/>
    </HashRouter>
   </>
   );

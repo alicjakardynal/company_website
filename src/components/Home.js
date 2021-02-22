@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
+import Menu from './Menu';
 import { NavLink } from "react-router-dom";
 import {
   Link,
@@ -15,9 +16,13 @@ class Home extends Component {
   render() {
     return (
       <>
+      <section className="home_section">
+         <Menu/>
         <Banner />
         <AboutCompany />
         <Materials />
+      </section>
+     
       </>
     );
   }

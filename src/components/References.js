@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Menu from './Menu';
 import img1 from "../assets/2_optimizedulbud.jpg";
 import img2 from "../assets/4_optimized.jpg";
 import img3 from "../assets/scan_optimizedulbud.jpg";
@@ -125,6 +126,7 @@ class References extends Component {
   render() {
     return (
       <>
+      <Menu/>
         <div className="realization_container references">
           
             <img onClick={()=>this.startGallery(imagesData[0].src,0)} className="col" src={img1} ></img>

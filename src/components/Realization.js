@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Menu from './Menu';
+
 import img1 from "../assets/DSC00244.JPG";
 import img2 from "../assets/DSC00211.JPG";
 import img3 from "../assets/DSC00168.JPG";
@@ -85,7 +87,6 @@ class Realization extends Component {
     currentTitle:"",
     currentIndex:0,
 
-
   }
 
 
@@ -143,6 +144,8 @@ class Realization extends Component {
   render() {
     return (
       <>
+      
+      <Menu/>
         <div className="realization_container">
           
             <img onClick={()=>this.startGallery(imagesData[0].src,imagesData[0].title,0)} className="col" src={img1} ></img>
