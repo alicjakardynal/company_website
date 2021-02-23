@@ -27,7 +27,7 @@ body {
 @import"./materials.scss";
 @import "./footer.scss";
 @import "./job.scss";
-@import "./realization.scss";
+@import "./gallery.scss";
 @import "./contact.scss";
 
 @media screen and (max-width: 1250px) {
@@ -35,13 +35,13 @@ body {
   @import "./max1250px/menu_1250.scss";
   @import "./max1250px/banner_1250.scss";
   @import "./max1250px/about_company_1250.scss";
-  @import "./max1250px/realizations_1250.scss";
+  @import "./max1250px/gallery_1250.scss";
 }
 
 @media screen and (max-width: 1024px) {
   @import "./max1024px/menu_max1024.scss";
   @import "./max1024px/about_company_1024.scss";
-  @import "./max1024px/realizations_1024.scss";
+  @import "./max1024px/gallery_1024.scss";
   @import "./max1024px/job_1024.scss";
   @import "./max1024px/contact_1024.scss";
 
@@ -54,12 +54,12 @@ body {
   @import "./max768px/menu_768.scss";
   @import "./max768px/banner_768.scss";
   @import "./max768px/footer_768.scss";
-  @import './max768px/realizations_768.scss';
+  @import './max768px/gallery_768.scss';
   @import "./max768px/job_768.scss";
 }
 
 @media screen and (max-width: 600px) {
-  @import "./max600px/realizations_600.scss";
+  @import "./max600px/gallery_600.scss";
  @import "./max600px/contact_600.scss";
 }
 
@@ -68,7 +68,7 @@ body {
   @import "./max480px/banner_480.scss";
   @import "./max480px/about_company_480.scss";
   @import './max480px/footer_480.scss';
-  @import "./max480px/realizations_480.scss";
+  @import "./max480px/gallery_480.scss";
   @import "./max480px/job_480.scss";
   @import "./max480px/contact_480.scss";
   .menu{
