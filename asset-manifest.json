@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/company_website/static/css/main.cd079819.chunk.css",
-    "main.js": "/company_website/static/js/main.1f3d074d.chunk.js",
-    "main.js.map": "/company_website/static/js/main.1f3d074d.chunk.js.map",
+    "main.css": "/company_website/static/css/main.ee99c12d.chunk.css",
+    "main.js": "/company_website/static/js/main.03a7e6ea.chunk.js",
+    "main.js.map": "/company_website/static/js/main.03a7e6ea.chunk.js.map",
     "runtime-main.js": "/company_website/static/js/runtime-main.ac16c8fe.js",
     "runtime-main.js.map": "/company_website/static/js/runtime-main.ac16c8fe.js.map",
-    "static/js/2.cbea2822.chunk.js": "/company_website/static/js/2.cbea2822.chunk.js",
-    "static/js/2.cbea2822.chunk.js.map": "/company_website/static/js/2.cbea2822.chunk.js.map",
+    "static/js/2.bd295c75.chunk.js": "/company_website/static/js/2.bd295c75.chunk.js",
+    "static/js/2.bd295c75.chunk.js.map": "/company_website/static/js/2.bd295c75.chunk.js.map",
     "index.html": "/company_website/index.html",
-    "precache-manifest.5a48e697b4067ee770bd805ee43644db.js": "/company_website/precache-manifest.5a48e697b4067ee770bd805ee43644db.js",
+    "precache-manifest.978347518d76a5953971d2d6b739f824.js": "/company_website/precache-manifest.978347518d76a5953971d2d6b739f824.js",
     "service-worker.js": "/company_website/service-worker.js",
-    "static/css/main.cd079819.chunk.css.map": "/company_website/static/css/main.cd079819.chunk.css.map",
-    "static/js/2.cbea2822.chunk.js.LICENSE.txt": "/company_website/static/js/2.cbea2822.chunk.js.LICENSE.txt",
+    "static/css/main.ee99c12d.chunk.css.map": "/company_website/static/css/main.ee99c12d.chunk.css.map",
+    "static/js/2.bd295c75.chunk.js.LICENSE.txt": "/company_website/static/js/2.bd295c75.chunk.js.LICENSE.txt",
     "static/media/10_optimizedulbud.jpg": "/company_website/static/media/10_optimizedulbud.3a9b32f1.jpg",
     "static/media/11_optimizedulbud.jpg": "/company_website/static/media/11_optimizedulbud.0672f266.jpg",
     "static/media/1_optimizedulbud.jpg": "/company_website/static/media/1_optimizedulbud.a47dc91c.jpg",
@@ -22,7 +22,7 @@
     "static/media/4_optimizedulbud.jpg": "/company_website/static/media/4_optimizedulbud.dbe8369a.jpg",
     "static/media/5_optimized.jpg": "/company_website/static/media/5_optimized.b45d97db.jpg",
     "static/media/5_optimizedulbud.jpg": "/company_website/static/media/5_optimizedulbud.dc2df42a.jpg",
-    "static/media/main.scss": "/company_website/static/media/f-30444-od-czego-zaczac-tynkowanie-scian.c9f6024c.jpg",
+    "static/media/main.scss": "/company_website/static/media/logo-7.c72620d7.png",
     "static/media/6_optimized.jpg": "/company_website/static/media/6_optimized.4b3150ad.jpg",
     "static/media/6_optimizedulbud.jpg": "/company_website/static/media/6_optimizedulbud.e26ae5df.jpg",
     "static/media/7_optimized.jpg": "/company_website/static/media/7_optimized.74f3e41d.jpg",
@@ -36,6 +36,7 @@
     "static/media/DSC00084.JPG": "/company_website/static/media/DSC00084.34d0662f.JPG",
     "static/media/DSC00107.JPG": "/company_website/static/media/DSC00107.f0f4ed93.JPG",
     "static/media/DSC00120.JPG": "/company_website/static/media/DSC00120.f7dc32c2.JPG",
+    "static/media/DSC00131.JPG": "/company_website/static/media/DSC00131.6de77cfd.JPG",
     "static/media/DSC00137.JPG": "/company_website/static/media/DSC00137.945c2935.JPG",
     "static/media/DSC00148.JPG": "/company_website/static/media/DSC00148.b603a4b8.JPG",
     "static/media/DSC00168.JPG": "/company_website/static/media/DSC00168.4ec3514f.JPG",
@@ -76,8 +77,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ac16c8fe.js",
-    "static/js/2.cbea2822.chunk.js",
-    "static/css/main.cd079819.chunk.css",
-    "static/js/main.1f3d074d.chunk.js"
+    "static/js/2.bd295c75.chunk.js",
+    "static/css/main.ee99c12d.chunk.css",
+    "static/js/main.03a7e6ea.chunk.js"
   ]
 }
