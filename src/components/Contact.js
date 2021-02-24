@@ -20,7 +20,6 @@ class Contact extends Component {
                 oraz <p>"Usługi Budowlane Roman Kardynał" </p>{" "}
               </div>
             </div>
-
             <div className="contact">
               <div className="contact_form">
                 <form>
@@ -39,16 +38,10 @@ class Contact extends Component {
                       required
                     ></input>
                   </div>
-
-                  <textarea
-                  
-                    placeholder="Twoja wiadomość"
-                  ></textarea>
-
+                  <textarea placeholder="Twoja wiadomość"></textarea>
                   <input type="submit" value="Wyślij"></input>
                 </form>
               </div>
-
               <div className="phone-and-mail">
                 <div>
                   <h2>
