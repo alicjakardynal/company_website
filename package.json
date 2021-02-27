@@ -1,4 +1,5 @@
-{"homepage": "http://alicjakardynal.github.io/company_website",
+{
+  "homepage": "http://alicjakardynal.github.io/company_website",
   "name": "company_website",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +10,7 @@
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-lazy-load-image-component": "^1.5.1",
     "react-reveal": "^1.2.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.3",
@@ -16,7 +18,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-      "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -14,7 +14,7 @@ function App() {
 
  <HashRouter>
  <Switch>
-  <Route exact path='/' component={Home} onUpdate={() => window.scrollTo(0, 0)}/>
+  <Route exact path='/' component={Home} onUpdate={() => document.body.scrollTo(0, 0)}/>
   <Route exact path='/realization' component={Realization} onUpdate={() => window.scrollTo(0, 0)}/>
   <Route exact path='/references' component={References} onUpdate={() => window.scrollTo(0, 0)}/>
   <Route exact path='/job' component={Job}/>

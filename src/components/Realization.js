@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import Menu from "./Menu";
 import img1 from "../assets/DSC00244.JPG";
 import img2 from "../assets/DSC00211.JPG";
@@ -127,6 +129,7 @@ class Realization extends Component {
       });
     }
   };
+
   render() {
     return (
       <>
@@ -134,11 +137,12 @@ class Realization extends Component {
         <div className="gallery_title">Nasze przykładowe realizacje</div>
         <div className="gallery_container">
           {imagesData.map((image, index) => (
-            <img
+            <LazyLoadImage
               onClick={() => this.startGallery(image.src, image.title, index)}
               src={image.src}
+              effect="blur"
               className={image.position === "vertical" ? "col vertical" : "col"}
-            ></img>
+            ></LazyLoadImage>
           ))}
         </div>
         <div className={this.state.isItClicked ? "popUp" : "dontPopUp"}>
