@@ -48,7 +48,7 @@ class Contact extends Component {
                     <i class="fas fa-envelope-open-text"></i> Email:
                   </h2>
                   <p> rkardynal@poczta.onet.pl</p>
-                  <p> ulbud@poczta.onet.pl</p>
+                  <p> ulbud@onet.pl</p>
                 </div>
                 <div>
                   <h2>

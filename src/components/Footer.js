@@ -15,21 +15,21 @@ class Footer extends Component {
             <h2>kontakt</h2>
             <div className="contact_info">
               <div className="info_detail">
-                <i class="fas fa-phone-alt"></i>
+                <i className="fas fa-phone-alt"></i>
                 <p>+48 502 253 424</p>
               </div>
               <div className="info_detail">
-                <i class="fas fa-phone-alt"></i>
+                <i className="fas fa-phone-alt"></i>
                 <p>+48 504 253 973</p>
               </div>
             </div>
             <div className="contact_info">
               <div className="info_detail">
-                <i class="fas fa-envelope-open-text"></i>
+                <i className="fas fa-envelope-open-text"></i>
                 <p>rkardynal@onet.poczta.pl</p>
               </div>
               <div className="info_detail">
-                <i class="fas fa-envelope-open-text"></i>
+                <i className="fas fa-envelope-open-text"></i>
                 <p>ulbud@onet.pl</p>
               </div>
             </div>

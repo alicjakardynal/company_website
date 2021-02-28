@@ -1,6 +1,7 @@
 .menu{
     .menu_btn{
       position: absolute;
+      
       right: 65px;
       top: 24px;
       cursor: pointer;
@@ -10,7 +11,7 @@
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
-        background-color: black;
+        background-color: white;
         @include easeOut;
       }
      
@@ -33,10 +34,10 @@
     flex-direction: column;
     position: relative;
     justify-content: center;
-    background-color: white;
+    background-color: black;
       height: 100vh;
       visibility: hidden;
-      opacity: 0.8;
+      opacity: 0.9;
       left: 0 !important;
       transform: translate3d(0, 0, 0);
     // visibility: hidden;

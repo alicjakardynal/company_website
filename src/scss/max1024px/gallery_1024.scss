@@ -23,9 +23,11 @@
 }}
 
 .gallery_container{
-      
+      padding-right: 40px 0;
   &.references{ 
     margin: 0;
-
+img{
+  width: 25%;
+}
 }
 }

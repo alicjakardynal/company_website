@@ -137,12 +137,13 @@ class Realization extends Component {
         <div className="gallery_title">Nasze przykładowe realizacje</div>
         <div className="gallery_container">
           {imagesData.map((image, index) => (
-            <LazyLoadImage
+            <img
               onClick={() => this.startGallery(image.src, image.title, index)}
               src={image.src}
-              effect="blur"
+              key={index}
+            
               className={image.position === "vertical" ? "col vertical" : "col"}
-            ></LazyLoadImage>
+            ></img>
           ))}
         </div>
         <div className={this.state.isItClicked ? "popUp" : "dontPopUp"}>
