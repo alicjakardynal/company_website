@@ -8,7 +8,7 @@ class Menu extends Component {
     menuBtnClicked:false
   }
   menuClick=()=>{
-    if(this.state.menuBtnClicked== false){
+    if(this.state.menuBtnClicked === false){
       this.setState({
       menuBtnClicked:true
     })

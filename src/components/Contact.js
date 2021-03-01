@@ -45,7 +45,7 @@ class Contact extends Component {
               <div className="phone-and-mail">
                 <div>
                   <h2>
-                    <i class="fas fa-envelope-open-text"></i> Email:
+                    <i className="fas fa-envelope-open-text"></i> Email:
                   </h2>
                   <p> rkardynal@poczta.onet.pl</p>
                   <p> ulbud@onet.pl</p>
@@ -53,7 +53,7 @@ class Contact extends Component {
                 <div>
                   <h2>
                     {" "}
-                    <i class="fas fa-phone-alt"></i>Numer Kontaktowy:
+                    <i className="fas fa-phone-alt"></i>Numer Kontaktowy:
                   </h2>
                   <p> +48 502 253 424</p>
                   <p> +48 504 253 973</p>

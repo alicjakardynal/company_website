@@ -17,27 +17,6 @@ import img12 from "../assets/DSC00052.JPG";
 import img13 from "../assets/DSC01631.JPG";
 import img14 from "../assets/DSC01646.JPG";
 import img15 from "../assets/DSC01695.JPG";
-import img16 from "../assets/DSC01676.JPG";
-import img17 from "../assets/DSC01674.JPG";
-import img18 from "../assets/DSC01677.JPG";
-import img19 from "../assets/DSC01683.JPG";
-import img20 from "../assets/DSC01686.JPG";
-import img21 from "../assets/DSC01688.JPG";
-import img22 from "../assets/DSC01691.JPG";
-import img23 from "../assets/DSC01668.JPG";
-import img24 from "../assets/DSC01672.JPG";
-import img25 from "../assets/DSC01663.JPG";
-import img26 from "../assets/DSC01664.JPG";
-import img27 from "../assets/DSC01710.JPG";
-import img28 from "../assets/DSC01703.JPG";
-import img29 from "../assets/DSC01706.JPG";
-import img30 from "../assets/DSC01714.JPG";
-import img31 from "../assets/DSC01716.JPG";
-import img32 from "../assets/DSC01711.JPG";
-import img33 from "../assets/DSC01654.JPG";
-import img34 from "../assets/DSC01657.JPG";
-import img35 from "../assets/DSC01647.JPG";
-import img36 from "../assets/DSC01659.JPG";
 
 const imagesData = [
   { src: img1, title: "ul.Naftowa 25 Sosnowiec", position: "horizontal" },
@@ -55,27 +34,8 @@ const imagesData = [
   { src: img13, title: "ul.Begoni 6/8 Tychy", position: "horizontal" },
   { src: img14, title: "ul.Begoni 6/8 Tychy", position: "vertical" },
   { src: img15, title: "ul.Turkusowa 21 Tychy", position: "horizontal" },
-  { src: img16, title: "ul.Dąbrowskiego 95 Tychy", position: "horizontal" },
-  { src: img17, title: "ul.Dąbrowskiego 95 Tychy", position: "horizontal" },
-  { src: img18, title: "ul.Dąbrowskiego 95 Tychy", position: "horizontal" },
-  { src: img19, title: "ul.Poziomkowa 14 Tychy", position: "horizontal" },
-  { src: img20, title: "ul.Poziomkowa 14 Tychy", position: "horizontal" },
-  { src: img21, title: "ul.Poziomkowa 44 Tychy", position: "horizontal" },
-  { src: img22, title: "ul.Poziomkowa 44 Tychy", position: "horizontal" },
-  { src: img23, title: "ul. De gaulle'a 28 Tychy", position: "horizontal" },
-  { src: img24, title: "ul. De gaulle'a 28 Tychy", position: "horizontal" },
-  { src: img25, title: "ul.Kochanowskiego 8 Mikołów", position: "horizontal" },
-  { src: img26, title: "ul.Kochanowskiego 8 Mikołów", position: "horizontal" },
-  { src: img27, title: "ul.Reymonta Tychy", position: "horizontal" },
-  { src: img28, title: "ul.Wieniawskiego Tychy", position: "horizontal" },
-  { src: img29, title: "ul.Wieniawskiego Tychy", position: "horizontal" },
-  { src: img30, title: "ul.Harcerska 5-7 Tychy", position: "horizontal" },
-  { src: img31, title: "ul.Harcerska 5-7 Tychy", position: "horizontal" },
-  { src: img32, title: "ul.Honoraty Tychy", position: "horizontal" },
-  { src: img33, title: "ul.30-lecia 8 Mikołów", position: "horizontal" },
-  { src: img34, title: "ul.30-lecia 8 Mikołów", position: "horizontal" },
-  { src: img35, title: "ul.30-lecia 5-7 Mikołów", position: "horizontal" },
-  { src: img36, title: "ul.30-lecia 5-7 Mikołów", position: "horizontal" },
+ 
+  
 ];
 
 class Realization extends Component {
@@ -141,6 +101,7 @@ class Realization extends Component {
               onClick={() => this.startGallery(image.src, image.title, index)}
               src={image.src}
               key={index}
+              alt={image.title}
             
               className={image.position === "vertical" ? "col vertical" : "col"}
             ></img>

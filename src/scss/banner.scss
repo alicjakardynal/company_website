@@ -1,13 +1,13 @@
 
 .banner_background{
-    background-image: url("../assets/banner.png");
-    // background-image: url("../assets/blueprint-tools.jpg");
+    // background-image: url("../assets/banner.png");
+    background-image: url("../assets/blueprint-tools.jpg");
     background-attachment: fixed;
     width: 100%;
     height: 100vh;
     background-size: cover;
     background-position-y: 20%;
-    filter: brightness(0.7) opacity(0.8);
+    filter: brightness(0.3) opacity(0.9);
  
     z-index: 1;
     

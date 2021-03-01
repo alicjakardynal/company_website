@@ -12,21 +12,7 @@ import img9 from "../assets/3_optimized.jpg";
 import img10 from "../assets/3_optimizedulbud.jpg";
 import img11 from "../assets/4_optimizedulbud.jpg";
 import img12 from "../assets/5_optimized.jpg";
-import img13 from "../assets/6_optimizedulbud.jpg";
-import img14 from "../assets/7_optimizedulbud.jpg";
-import img15 from "../assets/8_optimizedulbu.jpg";
-import img16 from "../assets/9_optimizedulbud.jpg";
-import img17 from "../assets/9_optimized.jpg";
-import img18 from "../assets/10_optimizedulbud.jpg";
-import img19 from "../assets/11_optimizedulbud.jpg";
-import img20 from "../assets/myslowicka1-2_optimized.jpg";
-import img21 from "../assets/myslowicka10-2-2_optimized.jpg";
-import img22 from "../assets/myslowicka101-2_optimized.jpg";
-import img23 from "../assets/myslowicka2-2_optimized.jpg";
-import img24 from "../assets/scan10_optimized.jpg";
-import img25 from "../assets/scan10_optimized.jpg";
-import img26 from "../assets/scan10_optimized.jpg";
-import img27 from "../assets/scan11_optimizedulbud.jpg";
+
 
 const imagesData = [
   { src: img1 },
@@ -41,21 +27,8 @@ const imagesData = [
   { src: img10 },
   { src: img11 },
   { src: img12 },
-  { src: img13 },
-  { src: img14 },
-  { src: img15 },
-  { src: img16 },
-  { src: img17 },
-  { src: img18 },
-  { src: img19 },
-  { src: img20 },
-  { src: img21 },
-  { src: img22 },
-  { src: img23 },
-  { src: img24 },
-  { src: img25 },
-  { src: img26 },
-  { src: img27 },
+
+
 ];
 
 class References extends Component {
